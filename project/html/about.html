@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Roboto:wght@900&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/components.css"/>
+    <link rel="stylesheet" href="../css/header-page.css"/>
+    <link rel="stylesheet" href="../css/section-top.css"/>
+    <link rel="stylesheet" href="../css/section-about.css"/>
+    <link rel="stylesheet" href="../css/section-contacts.css"/>
+    <link rel="stylesheet" href="../css/footer-page.css"/>
+    <link rel="stylesheet" href="../css/popup.css"/>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header-page   -->
+    <header class="header-page">
+      <div class="container header-page__container">
+        <div class="header-page__start">
+          <div class="logo">
+            <img
+              class="logo__img"
+              src="../img/common/logo.jpg"
+              alt=""
+              width="130"
+              height="70"
+            />
+          </div>
+        </div>
+        <div class="header-page__menu">
+            <button class="btn-menu" type="button" data-popup="popup-menu">
+                <span class="btn-menu__box">
+                    <span class="btn-menu__inner"></span>
+                </span>
+            </button>
+        </div>
+        <div class="header-page__center">
+          <nav class="header-page__nav">
+            <ul class="header-page__ul">
+                <li class="header-page__li">
+                    <a class="header-page__link" href="../index.html">
+                        <span class="header-page__text">Главная</span>
+                    </a>
+                  </li>
+              <li class="header-page__li">
+                <a class="header-page__link" href="catalog.html">
+                    <span class="header-page__text">Каталог</span>
+                </a>
+              </li>
+              <li class="header-page__li">
+                <a class="header-page__link" href="info.html">
+                    <span class="header-page__text">Доставка и оплата</span></a>
+              </li>
+              <li class="header-page__li">
+                <a class="header-page__link" href="about.html">
+                    <span class="header-page__text">О нас</span></a>
+              </li>  
+                <li class="header-page__li">
+                <a class="header-page__link" href="contacts.html">
+                    <span class="header-page__text">Контакты</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+          <div class="header-page__end">
+          <div class="phone">
+              <div class="phone__blok">
+            <span class="phone__item-city">Павловск:</span>
+            <a href="tel:+7999999999999" class="phone__item header-page__phone">+7 (999) 999-99-99</a>
+        </div>
+        <div class="phone__blok">
+            <span class="phone__item-city">Федеровское:</span>
+            <a href="tel:+7999999999999" class="phone__item header-page__phone">+7 (999) 999-99-99</a>
+            </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- /.header-page   -->
+
+    <!-- section-about -->
+    <section class="section section-about">
+    <img src="../img/section-about/bg.png" alt="" class="section-about__img">
+    <div class="container section-about__container">
+        <div class="section-about__content">
+            <h2 class="section__title section-about__title">О нас</h2>
+            <p class="section-about__text">Наша фирма </p>
+        </div>
+    </div>
+</section>
+    <!-- /.section-about -->
+
+    <!-- footer-page -->
+    <footer class="footer-page">
+        <div class="container">
+            <div class="footer-page__text">Мебель 2022</div>
+        </div>
+    </footer>
+    <!-- /.footer-page -->
+
+    <!-- popup-menu -->
+
+    <div class="popup popup-menu">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content popup__content--fluid popup__content--centered">
+                    <button class="btn-close popup-close popup-close"></button>
+                    <nav class="mobile-menu popup__mobile-menu">
+                        <ul class="mobile-menu__ul">
+                          <li class="mobile-menu__li">
+                            <a class="mobile-menu__link popup-close" href="index.html">Главная</a>
+                          </li>
+                          <li class="mobile-menu__li">
+                          <li class="mobile-menu__li">
+                            <a class="mobile-menu__link popup-close" href="html/catalog.html">Каталог</a>
+                          </li>
+                          <li class="mobile-menu__li">
+                            <a class="mobile-menu__link popup-close" href="html/info.html">Доставка и оплата</a>
+                          </li>
+                          <li class="mobile-menu__li">
+                            <a class="mobile-menu__link popup-close" href="html/about.html">О нас</a>
+                          </li>  
+                            <li class="mobile-menu__li">
+                            <a class="mobile-menu__link popup-close" href="html/contacts.html">Контакты</a>
+                          </li>
+                        </ul>
+                      </nav>
+                      <div class="phone popup_phone">
+                        <div class="phone__blok">
+                      <span class="phone__item-city">Павловск:</span>
+                      <a href="tel:+7999999999999" class="phone__item phone__item--accent">+7 (999) 999-99-99</a>
+                  </div>
+                  <div class="phone__blok">
+                      <span class="phone__item-city">Федеровское:</span>
+                      <a href="tel:+7999999999999" class="phone__item phone__item--accent">+7 (999) 999-99-99</a>
+                      </div>
+                  </div>
+                  <ul class="socials">
+                    <li class="socials__item">
+                        <a href="#" class="socials__link">
+                            <img src="img/section-contact/instagram.png" alt="" class="socials__icon">
+                            <img src="img/section-contact/vk.png" alt="" class="socials__icon">
+                            <img src="img/section-contact/WhatsApp.png" alt="" class="socials__icon">
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.popup-menu -->
+
+   
+    <script src="js/myLib.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/scrollTo.js"></script>
+</body>
+</html>

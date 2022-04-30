@@ -1,0 +1,40 @@
+.section__header-info{
+    padding: 10px;
+}
+
+.section-info{
+    background: linear-gradient(to top, #8aa8bce6, rgb(239, 245, 248) );
+}
+
+.info-container{
+    margin: 10px;
+    padding: 20px;
+    background: white;
+
+    font-family: 'Akshar', sans-serif;
+}
+
+.section-info__subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.info-title{
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: underline;
+    padding-left: 40px;
+}
+
+.info-text{
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.li__info{
+    padding: 5px 0;
+}
+
+

@@ -1,0 +1,139 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+lg:1200px
+md:992px
+sm:867px
+xs:576px
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 1.375;
+color: black;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+.section__title{
+    font-size: 40;
+    text-align: center;
+    margin: 0 auto 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+
+.catalog-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-nav__wrapper{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+
+.catalog-nav__btn{
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    min-width: 70px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: rgb(64, 16, 65);
+    padding: 12px;
+    min-height: 60px;
+    border-right: 1px solid black;
+}
+
+.catalog-nav__item:last-of-type .catalog-nav__btn{
+    border-right: 0;
+}
+
+.catalog-nav__btn.is-active{
+    background: #cce6f7e6;
+}
+
+.catalog-nav__btn:not(.is-active):hover {
+    background: rgb(125, 125, 125);
+    transition: color 0.4s;
+}
+
+@media (max-width: 867px){
+    .catalog-nav{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .catalog-nav__btn{
+        padding: 10px 20px;  
+        font-size: 16px;     
+    }
+}
+
+    @media (max-width: 720px){
+        .catalog-nav{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .catalog-nav__btn{
+            padding: 10px 15px;  
+            font-size: 14px;     
+        }
+}
+
+@media (max-width: 620px){
+    .catalog-nav{
+        max-width: 100%;
+    }
+    .catalog-nav__btn{
+        padding: 10px 15px;  
+        font-size: 14px;   
+        border: none;
+        border-bottom: 1px solid black;  
+        text-align: left;
+        min-width: 100%;
+    }
+    .catalog-nav__wrapper{
+        display: inline;
+        
+    }
+}
+
+.catalog__item::before{
+    transform: translateX(-50%);
+    height: 100%;
+    width: 3px;
+    content: '';
+    background:#cce6f7e6;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.js-focus-visible :focus:not(.focus-visible){
+    outline: none;
+}

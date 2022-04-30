@@ -1,0 +1,13 @@
+.footer-page__text{
+    color: black;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+.footer-page{
+    background:  #8aa8bce6;
+    padding: 15px 0;
+    flex: 0 0 auto;
+  
+}
